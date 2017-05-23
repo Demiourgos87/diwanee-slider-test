@@ -1,0 +1,16 @@
+section, article {
+  display: block;
+}
+
+body {
+  background: #636363;
+}
+
+.slider {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.slider .slide, .slide img, .slide video {
+  width: 100%;
+}
