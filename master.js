@@ -27,6 +27,8 @@
     setSlideDimensions($(this));
   });
 
+  $('video, .slider img').bind('contextmenu', function(){ return false; });
+
   slider.slick({
     slidesToShow: 1,
     slidesToScroll: 1,
