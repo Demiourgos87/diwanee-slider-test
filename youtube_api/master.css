@@ -1,0 +1,21 @@
+section, article {
+  display: block;
+}
+
+body {
+  background: #474747;
+}
+
+.slider {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.slide iframe {
+  height: 100%;
+  pointer-events: none;
+}
+
+.slider .slide, .slide img, .slide iframe {
+  width: 100%;
+}
